@@ -1,0 +1,85 @@
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+iframe {
+    max-width: 95%;
+}
+
+#home-pg {
+    background: #003973;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E5E5BE, #003973);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E5E5BE, #003973);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#default-navbar {
+    background-color: rgb(255, 255, 255);
+    margin-top: 3vh;
+    border: groove 0.3em black;
+    border-radius: 4em;
+}
+
+.navbar {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.carousel-sect, .carousel-guia {
+    margin-top: 10px;
+}
+
+.carousel-item>img {
+    max-width: 600px;
+    max-height: 300px;
+    margin-left: 25%;
+}
+
+#clasificacion {
+    margin-top: 2%;
+}
+
+.containerTable {
+    margin-top: 2%;
+    max-width: 960px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    padding: 1.8em;
+    overflow: scroll;
+}
+.table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table td, .table th {
+    padding: 1em;
+    text-align: left;
+}
+
+.table tr:nth-child(even) {
+    background-color: #81e2ff;
+}
+td {
+    display: block;
+    width: 100%;
+}
+
+th {
+    display: none;
+}
+
+td:nth-of-type(1) {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: teal;
+}
+td:nth-of-type(2) {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: teal;
+}
+
