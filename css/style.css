@@ -83,3 +83,12 @@ td:nth-of-type(2) {
     color: teal;
 }
 
+.img-fede{
+    width: 90%;
+}
+
+.volverPatos{
+    float: right;
+    margin-right: 8%;
+    margin-top: 25vh;
+}
